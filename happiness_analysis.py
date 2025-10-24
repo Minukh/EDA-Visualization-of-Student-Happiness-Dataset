@@ -11,14 +11,18 @@ sns.histplot(df['Happiness_Level'], kde=True, color='red')
 plt.title('Distribution of Happiness Levels')
 plt.xlabel('Happiness Level')
 plt.ylabel('Number of students')
+plt.savefig('visuals/hist_plot.png')
 plt.show()
 
 sns.scatterplot(x=df['Academic_Stress'], y=df['Happiness_Level'])
 plt.title("Academic Stress vs. Happiness Level")
 plt.xlabel('Academic Stress')
 plt.ylabel('Happiness Level')
+plt.savefig('visuals/scatter_plot.png')
 plt.show()
 
 sns.heatmap(numeric_df.corr(), cmap='coolwarm',annot=True)
 plt.title("Happiness Level vs. Happiness Level")
+plt.savefig('visuals/correlation_heatmap.png')
 plt.show()
+
