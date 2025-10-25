@@ -20,16 +20,13 @@ This project explores factors influencing student happiness using a real-world d
 
 ## Visualizations
 
-### 1. Happiness Level Distribution
-![Happiness Distribution](visuals/happiness_distribution.png)  
+### 1. Happiness Level Distribution 
 A histogram showing how happiness scores are distributed across the student population.
 
-### 2. Academic Stress vs Happiness
-![Stress vs Happiness](visuals/stress_vs_happiness.png)  
+### 2. Academic Stress vs Happiness 
 A scatter plot illustrating the negative relationship between academic stress and happiness.
 
 ### 3. Correlation Matrix
-![Correlation Heatmap](visuals/correlation_heatmap.png)  
 A heatmap highlighting the strength of relationships between numeric features, including happiness, sleep, stress, and emotional factors.
 
 ## Key Insights
