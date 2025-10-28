@@ -7,7 +7,7 @@ This project explores factors influencing student happiness using a real-world d
 - Analyze the distribution of happiness among students
 - Identify correlations between happiness and academic/emotional factors
 - Visualize key relationships using Python libraries
-- Demonstrate data analysis and storytelling skills for portfolio and internship applications
+- Demonstrate data analysis
 
 ## Tools & Technologies
 - Python 3
@@ -22,13 +22,13 @@ This project explores factors influencing student happiness using a real-world d
 
 ### 1. Happiness Level Distribution 
 A histogram showing how happiness scores are distributed across the student population.
-
+![Happiness Level Distribution](visuals/hist_plot.png)
 ### 2. Academic Stress vs Happiness 
 A scatter plot illustrating the negative relationship between academic stress and happiness.
-
+![Academic Stress vs Happiness](visuals/scatter_plot.png)
 ### 3. Correlation Matrix
 A heatmap highlighting the strength of relationships between numeric features, including happiness, sleep, stress, and emotional factors.
-
+![Correlation matrix](visuals/correlation_heatmap.png)
 ## Key Insights
 - Academic stress negatively correlates with happiness
 - Sleep and social support show positive associations with happiness
